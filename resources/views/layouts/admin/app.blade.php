@@ -31,17 +31,19 @@
         @include('admin.include.sidebar')
         <!-- partial -->
         <div class="main-panel">
-          @yield('content')
+            <div class="content-wrapper">
+                @yield('content')
+            </div>
           <!-- content-wrapper ends -->
           <!-- partial:partials/_footer.html -->
-           @include('admin.include.footer')
+          @include('admin.include.footer')
           <!-- partial -->
         </div>
         <!-- main-panel ends -->
-      </div>
-      <!-- page-body-wrapper ends -->
     </div>
-    <!-- container-scroller -->
-    <!-- plugins:js -->
-   @include('admin.include.script')
+    <!-- page-body-wrapper ends -->
+</div>
+<!-- container-scroller -->
+@include('admin.include.script')
+</body>
 </html>

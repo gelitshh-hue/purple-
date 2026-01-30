@@ -1,4 +1,5 @@
- <script src="{{asset('bashdoard/assets/vendors/js/vendor.bundle.base.js')}}"></script>
+ <!-- plugins:js -->
+    <script src="{{asset('bashdoard/assets/vendors/js/vendor.bundle.base.js')}}"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
     <script src="{{asset('bashdoard/assets/vendors/chart.js/chart.umd.js')}}"></script>
@@ -14,4 +15,3 @@
     <!-- Custom js for this page -->
     <script src="{{asset('bashdoard/assets/js/dashboard.js')}}"></script>
     <!-- End custom js for this page -->
-  </body>
